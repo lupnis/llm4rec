@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <h1 class="err-h1">Error!</h1>
+    <strong>Running Permission of JavaScript is not enabled. Please allow the web to run JavaScript!</strong>
+  </noscript>
+  <div id="app"></div>
+</body>
+<link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+<style>
+  header {
+    display: flex;
+  }
+
+  header * {
+    margin: 2px;
+  }
+
+  header span {
+    flex-grow: 1;
+  }
+
+  noscript {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+  }
+
+  noscript .err-h1 {
+    font-family: Consolas, Symbol, 'Microsoft Sans Serif', 'Times New Roman';
+    width: calc(100% - 2em - 4px);
+    max-width: 1024px;
+    padding: 0.5em 1em;
+    border: 2px solid #880000;
+    background-color: #cc5555;
+    color: #fff;
+    text-align: center;
+  }
+
+  noscript strong {
+    font-family: Consolas, Symbol, 'Microsoft Sans Serif', 'Times New Roman';
+    font-size: 16pt;
+    text-align: justify;
+    color: #cc2222;
+  }
+</style>
+
+</html>

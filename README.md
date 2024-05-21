@@ -1,10 +1,29 @@
-# llm4rec
-大模型推荐系统，基座为glm3-6b
+# gamehub
 
-后端fastapi
+## Project setup
+```
+npm install
+```
 
-前端用的vue3，写的烂成💩，无任何调优
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-毕设，能用就行（？）
+### Compiles and minifies for production
+```
+npm run build
+```
 
-代码答辩完同步
+### Run your unit tests
+```
+npm run test:unit
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
