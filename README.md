@@ -1,4 +1,13 @@
-# gamehub
+# llm4rec
+
+ABORTED🥺
+
+有用的可能是处理好的数据集？可用作微调
+来源Steam
+
+毕设能用就行
+
+💩很多
 
 ## Project setup
 ```
